@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ECEEF1;
+    color: rgb(57, 58, 61);
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+label {
+    display: block; /* input is on the next line */
+    padding-bottom: 6px;
+}
+
+/* navbar */
+
+/* body */
+
+.center-h { /* children of this class are placed in the center horizontaly */
+    display: flex;
+    justify-content: center;
+}
+
+#form-container {
+    padding: 30px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    background-color: white;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.form-error {
+    color: #eb5160;
+    font-weight: 600;
+    margin: 6px 0 16px 0;
+}
+
+.input-text {
+    height: 40px;
+    font-size: 20px;
+}
+
+.submit {
+    height: 50px;
+    font-size: 24px;
+    font-weight: 300;
+    color: white;
+    background: #44344f;
+    border-style: none;
+    border-radius: 7px;
+}
+
+/* footer */
