@@ -6,7 +6,8 @@ html {
 }
 
 body {
-    font-family: Arial;
+    margin: 0; /* remove default margin */
+    font-family: Roboto;
     background-color: #ECEEF1;
     color: rgb(57, 58, 61);
     font-size: 16px;
@@ -22,7 +23,56 @@ label {
     padding-bottom: 6px;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /* navbar */
+
+nav {
+    background-color: #2225;
+    background-image: url("assets/images/city_skyline.jpg");
+    background-image: linear-gradient(0, #000f, #0006), url("assets/images/city_skyline.jpg");
+    background-position: 70% 30%;
+    color: white;
+}
+
+nav h1 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 100px;
+    margin: 0 0 20px 0;
+}
+
+nav h2 {
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    margin-bottom: 50px;
+}
+
+nav ul {
+    background-color: #6b4e71;
+}
+
+nav li {
+    display: inline-block;
+    padding: 14px;
+    margin-right: 32px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+}
+
+nav a {
+    color: white;
+    font-size: 18px;
+}
+
+#nav-selected {
+    background-color: #fff3;
+}
 
 /* body */
 
@@ -32,10 +82,12 @@ label {
 }
 
 #form-container {
+    margin-top: 60px;
     padding: 30px;
     border: 1px solid #999;
     border-radius: 4px;
     background-color: white;
+    max-width: 500px;
 }
 
 .fullwidth {
@@ -62,5 +114,10 @@ label {
     border-style: none;
     border-radius: 7px;
 }
+
+.not-important-text {
+    color: #bbb;
+}
+
 
 /* footer */
